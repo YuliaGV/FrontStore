@@ -196,13 +196,15 @@ h3 {
     .productoMuestra {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 1.5rem;
+        gap: 2.5rem;
+        
     }
 
-    .productoMuestra {
-        width: 85%;
+    .productoMuestra img {
+        width: auto;
+        justify-self: center;
+
         
-      
     }
 
 }
